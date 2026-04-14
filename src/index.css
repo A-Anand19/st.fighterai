@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #050505;
+  --color-surface: rgba(25, 25, 25, 0.8);
+  --color-accent: #76B900;
+  --color-accent-soft: rgba(118, 185, 0, 0.2);
+  --color-text-main: #FFFFFF;
+  --color-text-dim: rgba(255, 255, 255, 0.5);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
+  --font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
